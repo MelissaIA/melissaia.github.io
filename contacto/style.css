@@ -19,13 +19,13 @@ body {
 
 :root {
     --blanco: #FFFFFF;
-    --amarillo: #FFEA80;
-    --verde: #C9D3B5;
-    --azul: #E1EDED;
-    --azul-dos: #C3DBDB;
-    --azul-tres: #061A21;
-    --azul-shadow: #C3DBDB20;
-    --amarillo-shadow: #FFEA8020;
+    --amarillo: #FFE5D9;
+    --verde: #D8E2DC;
+    --azul: #FFCAD4;
+    --azul-dos: #F4ACB7;
+    --azul-tres: #9D8189;
+    --azul-shadow: #FFE5D920;
+    --amarillo-shadow: #D8E2DC20;
 
     --shadow: var(--azul-shadow) 1rem 1rem 1.5rem;
     --shadow-dos: var(--amarillo-shadow) 1rem 1rem 1.5rem;
@@ -36,7 +36,7 @@ body {
 .container-all{
     width: 100vw;
     height: 100vh;
-    background-image: url(./fondo05.png);
+    background-image: url(./fondo01.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
