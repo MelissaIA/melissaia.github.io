@@ -7,17 +7,17 @@ const btnCompartir = document.getElementById('btnCompartir');
     async function share() {
         try {
             let shareData = {
-                title: "Title Share MDN.",
-                text: "Ejemplo para conpartir un link",
-                url: "https://developer.mozilla.org",
+                title: "Compartir Contacto",
+                text: "Comparte el contacto de Melissa",
+                url: "https://melissaia.github.io/contacto/",
             };
 
             if (!navigator.canShare) {
                 alert("navigator.canShare() not supported.");
             } else if (navigator.canShare(shareData)) {
                 await navigator.share({
-                    title: '@erick_calderon | Linktree',
-                    url: 'https://linktree.ee/erick_calderon'
+                    title: 'Melissa Flores | Contacto',
+                    url: 'https://melissaia.github.io/contacto/'
                 });
             } else {
                 alert("Specified data cannot be shared.");
